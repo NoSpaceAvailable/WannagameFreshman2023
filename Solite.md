@@ -54,7 +54,7 @@ dcthinh
   ![image](https://github.com/NoSpaceAvailable/WannagameFreshman2023/assets/143888307/4594b0e9-ad9f-457b-83f8-0fce3510586b)
   
 - At that time, I immediately claimed that I should use the Blind SQL injection technique, due to the message appearance behavior of the site. But the keywords *substring* and *substrs* were blocked.
-- After an hour of thinking, I realized that SQLite uses *substr* keyword, not *substring* or *substrs*. This - is - the - keyword - to - solve - this - challenge.
+- After an hour of thinking, I realized that SQLite uses *substr* keyword, not *substring* or *substrs*. This - is - the - key - to - solve - this - challenge.
 
 # Problem-solving
   ## Database name length brute-forcing
