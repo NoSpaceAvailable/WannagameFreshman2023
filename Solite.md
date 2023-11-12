@@ -67,7 +67,9 @@ dcthinh
     1' AND (SELECT LENGTH(name) FROM sqlite_master WHERE type is 'table' AND name LIKE 'flag_%') is 1--
     ```
     ![image](https://github.com/NoSpaceAvailable/WannagameFreshman2023/assets/143888307/ef581b82-f55a-4fe1-ae23-52430745bed4)
-  - It worked. It's time to brute-force. I set the Grep-Match to the string *"id":1* as the clue:
+  - It worked. It's time to brute-force.
+  ## Flag brute-forcing
+  - I set the Grep-Match to the string *"id":1* as the clue:
     ![image](https://github.com/NoSpaceAvailable/WannagameFreshman2023/assets/143888307/109ae2c4-fdbc-4336-8c2e-1b3b6f716f41)
 
   - Setup done, now attack phase:
