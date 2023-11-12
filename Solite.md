@@ -14,7 +14,7 @@ Not easy
 dcthinh
 
 # Approach
-- SQL injection is a simple but dangerous web vulnerability so every CTF challenge I have attended has at least one. At the time I saw the challenge's name, I realized that it would be SQLi.
+- SQL injection is a simple but dangerous web vulnerability so every CTF challenge which I have attended has at least one. At the time I saw the challenge's name, I realized that it would be SQLi.
 - When I connected to the website, all I saw was just a simple page:
   ![image](https://github.com/NoSpaceAvailable/WannagameFreshman2023/assets/143888307/20954e6b-56c0-4cfb-96e2-a8e09c0630c6)
 
