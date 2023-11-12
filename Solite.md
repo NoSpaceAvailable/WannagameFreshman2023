@@ -68,7 +68,6 @@ dcthinh
     ```
     ![image](https://github.com/NoSpaceAvailable/WannagameFreshman2023/assets/143888307/ef581b82-f55a-4fe1-ae23-52430745bed4)
   - It worked. It's time to brute-force.
-  ## Flag brute-forcing
   - I set the Grep-Match to the string *"id":1* as the clue:
     ![image](https://github.com/NoSpaceAvailable/WannagameFreshman2023/assets/143888307/109ae2c4-fdbc-4336-8c2e-1b3b6f716f41)
 
@@ -76,6 +75,7 @@ dcthinh
     ![image](https://github.com/NoSpaceAvailable/WannagameFreshman2023/assets/143888307/d6e047f5-89ec-4e9f-88a4-5913046709f4)
 
   - The result is 41. Since the *flag_* takes 5 characters, I have to find 36 other chars.
+  ## Flag brute-forcing
   - I write a simple Python code for this purpose:
     ```
     import requests
