@@ -139,6 +139,8 @@ dcduc
     ```
     \u0070hp://filter/convert.base64-encode/resource=/etc/passwd
     ```
+    ![image](https://github.com/NoSpaceAvailable/WannagameFreshman2023/assets/143888307/a9ccba0a-16fe-4828-9b04-e6b94a9ae936)
+
   - It worked!!
   - **But why it worked? Why do I have to encode as Unicode, not Hexadecimal or another type?** The reason is based on the source code:
     ```
@@ -150,8 +152,8 @@ dcduc
     ```
   - Function json_decode() in PHP will decode a JSON string and return a JSON object. During the decode session, it also decodes all Unicode characters if exist. For example:
     ![image](https://github.com/NoSpaceAvailable/WannagameFreshman2023/assets/143888307/3caf7b24-54ab-417f-8676-970d8f7e7588)
-
-  - Now try to read the flag file:
+    
+  - The filter will be fooled that I didn't use *php*. Now try to read the flag file:
     ![image](https://github.com/NoSpaceAvailable/WannagameFreshman2023/assets/143888307/cea38df7-ed07-43fb-bb83-8232c3414968)
 
   - Decode it as base64 to get the flag.
