@@ -5,8 +5,8 @@ URL:      [http://45.122.249.68:20029/](http://45.122.249.68:20029/) (maybe the 
 I forgot it :>
 
 # Challenge source file
-Source code on the page:
-- I am rebuilding it 
+     https://1drv.ms/u/s!AnKnTgw0LN8rfXAkFgu81Lp1urI?e=yEia5a
+- Run app.py with Python and the challenge will be hosted on localhost
 # Difficulty
 Normal
 
